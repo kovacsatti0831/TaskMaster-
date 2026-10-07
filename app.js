@@ -418,7 +418,7 @@ const tips = [
   "Try a 5-minute cold shower or cold water rinse","Share one small win with someone today","Practice saying “thank you” more intentionally", "Try a new productivity method for one day",
   "Leave your phone in another room for 30 minutes", "Ask a question in a group chat or forum", "Try sketching the view from your window",
   "Offer a genuine compliment to a family member", "Try cooking without a recipe for one meal", "Watch a short documentary on a topic you know nothing about", "Practice deep breathing for 3 minutes when you feel stressed", "Write a list of 10 things you’re grateful for right now"
- ];
+];
 
 document.getElementById('random-tip-btn').addEventListener('click', () => {
     const randomTip = tips[Math.floor(Math.random() * tips.length)];
